@@ -111,7 +111,7 @@ const websites = [
     tech: ["HTML", "CSS", "JavaScript"],
     dateBuilt: "May 2026",
     status: "Published",
-    url: "https://pawse-comfort-space.netlify.app/",
+    url: "https://anikakhandekar24.github.io/pawse-comfort-space/",
     github: "#",
     logo: "assets/project-logos/pawse-comfort-space.svg",
     color: "peach"
