@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">AI Bias Checker logo cover</title>
+  <desc id="desc">Pastel AI text analysis logo cover for AI Bias Checker.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffd1e1"/>
+      <stop offset="0.52" stop-color="#d7c9ff"/>
+      <stop offset="1" stop-color="#c7f5e1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="54" fill="url(#bg)"/>
+  <rect x="242" y="120" width="716" height="420" rx="46" fill="#fff" opacity=".88"/>
+  <path d="M357 250h302M357 322h442M357 394h254" stroke="#8b78d8" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="823" cy="398" r="66" fill="#ff9fc2" opacity=".75"/>
+  <path d="m790 398 27 27 51-61" fill="none" stroke="#3d3b4f" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="226" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="72" font-weight="800" fill="#4f4268">AI Bias Checker</text>
+  <text x="600" y="604" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="8" fill="#654f77">RESPONSIBLE TEXT ANALYSIS</text>
+</svg>

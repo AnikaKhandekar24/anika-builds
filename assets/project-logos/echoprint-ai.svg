@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">EchoPrint AI logo cover</title>
+  <desc id="desc">Pastel digital personality mirror logo cover for EchoPrint AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe1b9"/>
+      <stop offset="0.5" stop-color="#ffc7db"/>
+      <stop offset="1" stop-color="#d7c9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="54" fill="url(#bg)"/>
+  <rect x="386" y="118" width="428" height="360" rx="56" fill="#fff" opacity=".84"/>
+  <path d="M506 278c45-62 143-62 188 0M522 346c38 38 118 38 156 0" fill="none" stroke="#332f3b" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="530" cy="279" r="22" fill="#332f3b"/>
+  <circle cx="670" cy="279" r="22" fill="#332f3b"/>
+  <path d="M300 300h-62M900 300h62M334 208l-52-35M866 208l52-35" stroke="#fff" stroke-width="28" stroke-linecap="round" opacity=".9"/>
+  <text x="600" y="581" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="86" font-weight="900" fill="#4f3e56">EchoPrint AI</text>
+</svg>

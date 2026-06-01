@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">TruthLens AI logo cover</title>
+  <desc id="desc">Pastel AI lens logo cover for TruthLens AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d7c9ff"/>
+      <stop offset="0.55" stop-color="#bce7ff"/>
+      <stop offset="1" stop-color="#ffd1e1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="54" fill="url(#bg)"/>
+  <circle cx="548" cy="294" r="138" fill="#fff" opacity=".88"/>
+  <circle cx="548" cy="294" r="74" fill="#d7c9ff"/>
+  <path d="m650 396 159 159" stroke="#33313c" stroke-width="35" stroke-linecap="round"/>
+  <path d="m506 294 36 36 74-86" fill="none" stroke="#33313c" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="581" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="92" font-weight="900" fill="#3f365a">TruthLens AI</text>
+</svg>

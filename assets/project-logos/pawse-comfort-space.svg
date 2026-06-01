@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Pawse Comfort Space logo cover</title>
+  <desc id="desc">Pastel pet comfort website logo cover for Pawse Comfort Space.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe1b9"/>
+      <stop offset="0.48" stop-color="#ffc7db"/>
+      <stop offset="1" stop-color="#c7f5e1"/>
+    </linearGradient>
+    <linearGradient id="paw" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff9fc2"/>
+      <stop offset="1" stop-color="#ffd0a7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="54" fill="url(#bg)"/>
+  <circle cx="230" cy="130" r="78" fill="#fff" opacity=".45"/>
+  <circle cx="980" cy="498" r="120" fill="#fff" opacity=".4"/>
+  <rect x="264" y="116" width="672" height="430" rx="70" fill="#fff" opacity=".82"/>
+  <circle cx="600" cy="336" r="92" fill="url(#paw)"/>
+  <circle cx="492" cy="267" r="36" fill="#ffb7cd"/>
+  <circle cx="559" cy="226" r="38" fill="#ffb7cd"/>
+  <circle cx="641" cy="226" r="38" fill="#ffb7cd"/>
+  <circle cx="708" cy="267" r="36" fill="#ffb7cd"/>
+  <path d="M477 441c63-62 183-62 246 0" fill="none" stroke="#6a5767" stroke-width="24" stroke-linecap="round"/>
+  <text x="600" y="602" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="82" font-weight="900" fill="#4c3e4b">Pawse Comfort Space</text>
+  <text x="600" y="85" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="8" fill="#7c6378">PET COMFORT WEBSITE</text>
+</svg>

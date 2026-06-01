@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">PersonaChat AI logo cover</title>
+  <desc id="desc">Pastel AI conversation logo cover for PersonaChat AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#c7f5e1"/>
+      <stop offset="0.52" stop-color="#d7c9ff"/>
+      <stop offset="1" stop-color="#ffc7db"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="54" fill="url(#bg)"/>
+  <path d="M344 174h512c58 0 105 42 105 94v122c0 52-47 94-105 94H645l-111 82v-82H344c-58 0-105-42-105-94V268c0-52 47-94 105-94Z" fill="#fff" opacity=".86"/>
+  <circle cx="475" cy="329" r="31" fill="#8d7be2"/>
+  <circle cx="600" cy="329" r="31" fill="#ff9fc2"/>
+  <circle cx="725" cy="329" r="31" fill="#70d7b2"/>
+  <text x="600" y="596" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="84" font-weight="900" fill="#41395a">PersonaChat AI</text>
+</svg>
