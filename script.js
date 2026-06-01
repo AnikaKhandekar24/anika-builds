@@ -20,7 +20,7 @@ const websites = [
     tech: ["HTML", "CSS", "JavaScript", "AI/Text Analysis"],
     dateBuilt: "May 2026",
     status: "Published",
-    url: "https://ai-bias-checker-anika.netlify.app/",
+    url: "https://anikakhandekar24.github.io/ai-bias-checker/",
     github: "#",
     logo: "assets/project-logos/ai-bias-checker.svg",
     color: "lavender"
@@ -46,7 +46,7 @@ const websites = [
     tech: ["HTML", "CSS", "JavaScript", "API"],
     dateBuilt: "May 2026",
     status: "Published",
-    url: "https://airaware-live-pollution-checker.netlify.app/",
+    url: "https://anikakhandekar24.github.io/airaware-live-pollution-checker/",
     github: "#",
     logo: "assets/project-logos/airaware.svg",
     color: "sky"
@@ -59,7 +59,7 @@ const websites = [
     tech: ["HTML", "CSS", "JavaScript"],
     dateBuilt: "May 2026",
     status: "Published",
-    url: "https://gesturesnap.netlify.app/",
+    url: "https://anikakhandekar24.github.io/gesturesnap/",
     github: "#",
     logo: "assets/project-logos/gesturesnap.svg",
     color: "pink"
@@ -72,7 +72,7 @@ const websites = [
     tech: ["HTML", "CSS", "JavaScript", "AI"],
     dateBuilt: "May 2026",
     status: "Published",
-    url: "https://anika-truthlens-ai.netlify.app/",
+    url: "https://anikakhandekar24.github.io/anika-truthlens-ai/",
     github: "#",
     logo: "assets/project-logos/truthlens-ai.svg",
     color: "lavender"
@@ -85,7 +85,7 @@ const websites = [
     tech: ["HTML", "CSS", "JavaScript", "AI"],
     dateBuilt: "May 2026",
     status: "Published",
-    url: "https://echoprint-ai-digital-personality-mirror.netlify.app/",
+    url: "https://anikakhandekar24.github.io/echoprint-ai-digital-personality-mirror/",
     github: "#",
     logo: "assets/project-logos/echoprint-ai.svg",
     color: "peach"
