@@ -26,19 +26,6 @@ const websites = [
     color: "lavender"
   },
   {
-    name: "Portfolio Website",
-    description: "A personal portfolio website showcasing my skills, work, and web development journey.",
-    category: "Portfolio Websites",
-    displayCategory: "Portfolio Website",
-    tech: ["HTML", "CSS", "JavaScript"],
-    dateBuilt: "May 2026",
-    status: "Published",
-    url: "https://anikakhandekar24.github.io/anika-khandekar-portfolio/?flow-update=1",
-    github: "#",
-    logo: "assets/project-logos/portfolio-website.svg",
-    color: "peach"
-  },
-  {
     name: "AirAware",
     description: "A live pollution checker for exploring air quality information with a clean city-search experience.",
     category: "Climate Websites",
