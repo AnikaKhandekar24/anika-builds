@@ -141,6 +141,19 @@ const websites = [
     github: "#",
     logo: "assets/project-logos/ai-resume-analyzer.svg",
     color: "lavender"
+  },
+  {
+    name: "MindWall",
+    description: "A creative profile-wall website for organizing personal thoughts, identity, and interactive self-expression.",
+    category: "Creative Websites",
+    displayCategory: "Creative Website",
+    tech: ["HTML", "CSS", "JavaScript"],
+    dateBuilt: "June 2026",
+    status: "Published",
+    url: "https://anikakhandekar24.github.io/mindwall/#profile",
+    github: "#",
+    logo: "assets/project-logos/mindwall.svg",
+    color: "lavender"
   }
 ];
 
