@@ -115,6 +115,19 @@ const websites = [
     github: "#",
     logo: "assets/project-logos/pawse-comfort-space.svg",
     color: "peach"
+  },
+  {
+    name: "Sleep Alarm",
+    description: "A student-friendly alarm website for setting sleep reminders and keeping routines easier to manage.",
+    category: "Student Tools",
+    displayCategory: "Student Tool",
+    tech: ["HTML", "CSS", "JavaScript"],
+    dateBuilt: "June 2026",
+    status: "Published",
+    url: "https://anikakhandekar24.github.io/sleep-alarm/",
+    github: "#",
+    logo: "assets/project-logos/sleep-alarm.svg",
+    color: "lavender"
   }
 ];
 
