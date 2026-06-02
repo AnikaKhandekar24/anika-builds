@@ -115,6 +115,19 @@ const websites = [
     github: "#",
     logo: "assets/project-logos/sleep-alarm.svg",
     color: "lavender"
+  },
+  {
+    name: "Doomscroller Stopper",
+    description: "A focus-friendly website that helps users pause endless scrolling and build healthier digital habits.",
+    category: "Student Tools",
+    displayCategory: "Student Tool",
+    tech: ["HTML", "CSS", "JavaScript"],
+    dateBuilt: "June 2026",
+    status: "Published",
+    url: "https://anikakhandekar24.github.io/doomscroller-stopper/",
+    github: "#",
+    logo: "assets/project-logos/doomscroller-stopper.svg",
+    color: "pink"
   }
 ];
 
