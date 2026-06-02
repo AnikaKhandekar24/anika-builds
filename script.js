@@ -128,6 +128,19 @@ const websites = [
     github: "#",
     logo: "assets/project-logos/doomscroller-stopper.svg",
     color: "pink"
+  },
+  {
+    name: "AI Resume Analyzer",
+    description: "An AI-powered website that reviews resume content and helps users understand strengths, gaps, and improvement areas.",
+    category: "AI Websites",
+    displayCategory: "AI Website",
+    tech: ["HTML", "CSS", "JavaScript", "AI/Text Analysis"],
+    dateBuilt: "June 2026",
+    status: "Published",
+    url: "https://anikakhandekar24.github.io/ai-resume-analyzer/",
+    github: "#",
+    logo: "assets/project-logos/ai-resume-analyzer.svg",
+    color: "lavender"
   }
 ];
 
