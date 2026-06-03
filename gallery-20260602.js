@@ -154,6 +154,19 @@ const websites = [
     github: "#",
     logo: "assets/project-logos/mindwall.svg",
     color: "lavender"
+  },
+  {
+    name: "Streakly",
+    description: "A habit and streak-tracking website for building consistency through a simple, motivating digital dashboard.",
+    category: "Student Tools",
+    displayCategory: "Student Tool",
+    tech: ["HTML", "CSS", "JavaScript"],
+    dateBuilt: "June 2026",
+    status: "Published",
+    url: "https://streakly-delta.vercel.app/",
+    github: "#",
+    logo: "assets/project-logos/streakly.svg",
+    color: "peach"
   }
 ];
 
