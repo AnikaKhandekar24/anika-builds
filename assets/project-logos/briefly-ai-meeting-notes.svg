@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Briefly AI Meeting Notes logo cover</title>
+  <desc id="desc">Pastel AI meeting notes website cover.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#bce7ff"/>
+      <stop offset=".5" stop-color="#d8cbff"/>
+      <stop offset="1" stop-color="#ffc7db"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff8fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="54" fill="url(#bg)"/>
+  <circle cx="224" cy="128" r="82" fill="#fff" opacity=".34"/>
+  <circle cx="987" cy="512" r="132" fill="#fff" opacity=".3"/>
+  <rect x="290" y="104" width="620" height="430" rx="58" fill="url(#paper)" opacity=".94"/>
+  <circle cx="402" cy="218" r="48" fill="#ffb9d2"/>
+  <circle cx="512" cy="218" r="48" fill="#bdeedb"/>
+  <circle cx="622" cy="218" r="48" fill="#ffd2aa"/>
+  <path d="M382 218h40M492 218h40M602 218h40" stroke="#fff" stroke-width="15" stroke-linecap="round"/>
+  <rect x="370" y="304" width="382" height="24" rx="12" fill="#cbbcff"/>
+  <rect x="370" y="365" width="318" height="24" rx="12" fill="#bce7ff"/>
+  <rect x="370" y="426" width="252" height="24" rx="12" fill="#ffb9d2"/>
+  <circle cx="806" cy="388" r="90" fill="#fff" opacity=".98"/>
+  <path d="M806 335v106M767 373h78" stroke="#514563" stroke-width="20" stroke-linecap="round"/>
+  <path d="M806 448v35M774 483h64" stroke="#514563" stroke-width="17" stroke-linecap="round"/>
+  <text x="600" y="608" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="68" font-weight="900" fill="#3e354c">Briefly AI Meeting Notes</text>
+</svg>

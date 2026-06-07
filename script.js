@@ -167,6 +167,19 @@ const websites = [
     github: "#",
     logo: "assets/project-logos/streakly.svg",
     color: "peach"
+  },
+  {
+    name: "Briefly AI Meeting Notes",
+    description: "An AI-powered meeting notes website that helps turn conversations into clear summaries and organized takeaways.",
+    category: "AI Websites",
+    displayCategory: "AI Website",
+    tech: ["HTML", "CSS", "JavaScript", "AI/Text Analysis"],
+    dateBuilt: "June 2026",
+    status: "Published",
+    url: "https://anikakhandekar24.github.io/briefly-ai-meeting-notes/",
+    github: "#",
+    logo: "assets/project-logos/briefly-ai-meeting-notes.svg",
+    color: "sky"
   }
 ];
 
