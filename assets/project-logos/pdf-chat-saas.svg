@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">PDF Chat SaaS logo cover</title>
+  <desc id="desc">Pastel AI PDF chat SaaS website logo cover.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d8cbff"/>
+      <stop offset="0.48" stop-color="#bce7ff"/>
+      <stop offset="1" stop-color="#ffc7db"/>
+    </linearGradient>
+    <linearGradient id="doc" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fff7fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="54" fill="url(#bg)"/>
+  <circle cx="236" cy="134" r="86" fill="#fff" opacity=".34"/>
+  <circle cx="982" cy="514" r="128" fill="#fff" opacity=".32"/>
+  <rect x="302" y="108" width="388" height="452" rx="48" fill="url(#doc)" opacity=".94"/>
+  <path d="M610 108v112h80" fill="#eef2ff"/>
+  <rect x="368" y="248" width="236" height="26" rx="13" fill="#cbbcff"/>
+  <rect x="368" y="316" width="270" height="24" rx="12" fill="#bce7ff"/>
+  <rect x="368" y="376" width="202" height="24" rx="12" fill="#ffb9d2"/>
+  <path d="M336 190h166" stroke="#3e354c" stroke-width="28" stroke-linecap="round"/>
+  <rect x="640" y="260" width="260" height="150" rx="42" fill="#fff" opacity=".95"/>
+  <path d="M698 328h140M698 372h92" stroke="#6d5dfc" stroke-width="22" stroke-linecap="round"/>
+  <path d="M812 410l52 58v-74" fill="#fff"/>
+  <circle cx="830" cy="228" r="42" fill="#ffb9d2"/>
+  <path d="M814 228h32M830 212v32" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+  <text x="600" y="616" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="78" font-weight="900" fill="#3e354c">PDF Chat SaaS</text>
+</svg>

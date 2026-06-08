@@ -180,6 +180,19 @@ const websites = [
     github: "#",
     logo: "assets/project-logos/briefly-ai-meeting-notes.svg",
     color: "sky"
+  },
+  {
+    name: "PDF Chat SaaS",
+    description: "An AI-powered SaaS-style website where users can chat with PDF documents and understand content faster.",
+    category: "AI Websites",
+    displayCategory: "AI Website",
+    tech: ["HTML", "CSS", "JavaScript", "AI/PDF Chat"],
+    dateBuilt: "June 2026",
+    status: "Published",
+    url: "https://pdf-chat-saas-dusky.vercel.app/",
+    github: "#",
+    logo: "assets/project-logos/pdf-chat-saas.svg",
+    color: "lavender"
   }
 ];
 
