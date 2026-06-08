@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anika Builds | Website Archive</title>
-  <meta name="description" content="Anika Builds is a polished archive of websites coded, designed, and launched by Anika.">
+  <title>Anika Builds | AI & Web App Archive</title>
+  <meta name="description" content="Anika Builds is a modern archive of AI tools, web apps, and creative code experiments built by Anika.">
   <link rel="icon" type="image/png" href="assets/anika-logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,7 +29,7 @@
 
       <div class="nav-links" id="navLinks">
         <a href="#home">Home</a>
-        <a href="#websites">My Websites</a>
+        <a href="#websites">Projects</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </div>
@@ -38,72 +38,108 @@
 
   <main>
     <section class="hero section-shell" id="home">
-      <div class="hero-copy">
-        <span class="eyebrow"><span>&#10023;</span> Personal website archive</span>
-        <h1>Anika Builds</h1>
-        <p class="hero-subtitle">A collection of websites I've coded, designed, and launched.</p>
-        <p class="hero-intro">Hi, I'm Anika. This is my personal website library where I organize and showcase the websites I have created through coding.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#websites">Explore Websites</a>
-          <a class="button ghost" href="#contact">Contact Me</a>
-        </div>
-      </div>
-
-      <div class="hero-art" aria-label="Pastel browser code illustration">
-        <div class="sparkle sparkle-one">&#10022;</div>
-        <div class="sparkle sparkle-two">&#10023;</div>
-        <div class="browser-window">
-          <div class="browser-bar">
-            <span></span>
-            <span></span>
-            <span></span>
-            <div class="address-pill">anikabuilds.dev</div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="section-kicker">Learning in public</span>
+          <h1>Anika Builds — a growing archive of AI tools, web apps, and creative code experiments.</h1>
+          <p class="hero-subtitle">A project hub where I turn ideas into real websites, AI tools, and prototypes while learning product thinking, design, development, and responsible technology.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#websites">Explore Projects</a>
+            <a class="button secondary" href="https://anikakhandekar24.github.io/anika-khandekar-portfolio/?flow-update=1" target="_blank" rel="noreferrer">View Portfolio</a>
           </div>
-          <div class="code-card">
-            <div class="code-line pink"></div>
-            <div class="code-line lavender short"></div>
-            <div class="code-line mint"></div>
-            <div class="mini-preview">
-              <div class="preview-tile"></div>
-              <div class="preview-copy">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
+          <div class="hero-badges" aria-label="Project focus areas">
+            <span>AI Tools</span>
+            <span>Web Apps</span>
+            <span>Cybersecurity</span>
+            <span>Student Projects</span>
+            <span>Creative Tech</span>
+            <span>Product Thinking</span>
+          </div>
+        </div>
+
+        <div class="hero-panel glass-card" aria-label="Project hub preview">
+          <div class="panel-topline">
+            <span></span>
+            <span></span>
+            <span></span>
+            <p>anikabuilds.dev</p>
+          </div>
+          <div class="panel-content">
+            <div class="panel-feature">
+              <span class="feature-chip">Latest Build</span>
+              <h2>AI Resume Analyzer</h2>
+              <p>Resume scoring, keyword suggestions, and stronger bullet improvements in one focused AI tool.</p>
             </div>
-            <div class="code-footer">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JS</span>
+            <div class="floating-card card-one">
+              <strong>AI Tools</strong>
+              <span>Resume, notes, bias, analysis</span>
+            </div>
+            <div class="floating-card card-two">
+              <strong>Web Apps</strong>
+              <span>Climate, habits, wellbeing</span>
+            </div>
+            <div class="panel-metrics">
+              <span>Design</span>
+              <span>Build</span>
+              <span>Launch</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="stats section-shell" aria-label="Archive stats">
+      <article class="stat-card glass-card">
+        <strong>10+ Projects Built</strong>
+        <span>Live websites and app prototypes</span>
+      </article>
+      <article class="stat-card glass-card">
+        <strong>AI + Web Focus</strong>
+        <span>Practical tools with polished interfaces</span>
+      </article>
+      <article class="stat-card glass-card">
+        <strong>Student-led Experiments</strong>
+        <span>Built while learning in public</span>
+      </article>
+      <article class="stat-card glass-card">
+        <strong>Growing Build Archive</strong>
+        <span>Updated as new work launches</span>
+      </article>
+    </section>
+
+    <section class="intro section-shell" aria-labelledby="intro-title">
+      <div class="intro-card glass-card">
+        <span class="section-kicker">Build archive</span>
+        <h2 id="intro-title">A polished home for launched projects.</h2>
+        <p>Anika Builds is my personal build archive — a space where I turn ideas into real websites, AI tools, and experiments. Each project helps me learn development, design, product thinking, and responsible technology.</p>
+      </div>
+    </section>
+
     <section class="section-shell websites-section" id="websites" aria-labelledby="websites-title">
       <div class="section-heading">
-        <span class="eyebrow">My websites</span>
-        <h2 id="websites-title">Website Gallery</h2>
-        <p>Filter the archive by website type. Every card is a website Anika coded, designed, or launched.</p>
+        <span class="section-kicker">Featured builds</span>
+        <h2 id="websites-title">Project Gallery</h2>
+        <p>Browse AI tools, student utilities, climate websites, creative tech experiments, and web apps built through code and product thinking.</p>
       </div>
 
-      <div class="filter-bar" role="group" aria-label="Filter websites by category">
+      <div class="filter-bar" role="group" aria-label="Filter projects by category">
         <button class="filter-button active" type="button" data-filter="all">All</button>
-        <button class="filter-button" type="button" data-filter="AI Websites">AI Websites</button>
-        <button class="filter-button" type="button" data-filter="Climate Websites">Climate Websites</button>
-        <button class="filter-button" type="button" data-filter="Student Tools">Student Tools</button>
-        <button class="filter-button" type="button" data-filter="Creative Websites">Creative Websites</button>
+        <button class="filter-button" type="button" data-filter="AI">AI</button>
+        <button class="filter-button" type="button" data-filter="Web Apps">Web Apps</button>
+        <button class="filter-button" type="button" data-filter="Cybersecurity">Cybersecurity</button>
+        <button class="filter-button" type="button" data-filter="Design">Design</button>
+        <button class="filter-button" type="button" data-filter="Research">Research</button>
+        <button class="filter-button" type="button" data-filter="Social Impact">Social Impact</button>
       </div>
 
       <div class="website-grid" id="websiteGrid" aria-live="polite"></div>
     </section>
 
     <section class="section-shell about-section" id="about" aria-labelledby="about-title">
-      <div class="about-card">
+      <div class="about-card glass-card">
         <div>
-          <span class="eyebrow">About</span>
-          <h2 id="about-title">Built with curiosity, code, and care.</h2>
+          <span class="section-kicker">About</span>
+          <h2 id="about-title">Built with curiosity, code, and product thinking.</h2>
         </div>
         <div class="about-copy">
           <p>I'm Anika, a student developer who enjoys building websites that turn ideas into interactive digital experiences. Anika Builds is my dedicated space to organize the websites I have coded, designed, improved, and published.</p>
@@ -114,18 +150,18 @@
     </section>
 
     <section class="section-shell contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="contact-panel">
-        <span class="eyebrow">Contact</span>
-        <h2 id="contact-title">Want to explore my websites or collaborate?</h2>
-        <p>Let's connect.</p>
+      <div class="contact-panel glass-card">
+        <span class="section-kicker">Contact</span>
+        <h2 id="contact-title">Have an idea, internship opportunity, or project collaboration?</h2>
+        <p>I’m open to AI, web development, cybersecurity, research, and student-led tech collaborations.</p>
         <div class="contact-details" aria-label="Contact details">
           <a href="mailto:khandekar.anika24@gmail.com">khandekar.anika24@gmail.com</a>
           <a href="tel:+919810183959">+91 9810183959</a>
         </div>
         <div class="contact-actions">
-          <a class="button primary" href="mailto:khandekar.anika24@gmail.com">Email</a>
-          <a class="button ghost" href="tel:+919810183959">Phone</a>
-          <a class="button ghost" href="https://www.linkedin.com/in/anika-khandekar-746b50378" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button primary" href="https://anikakhandekar24.github.io/anika-khandekar-portfolio/?flow-update=1" target="_blank" rel="noreferrer">View Portfolio</a>
+          <a class="button secondary" href="mailto:khandekar.anika24@gmail.com">Contact Me</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/anika-khandekar-746b50378" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </div>
     </section>
@@ -136,6 +172,6 @@
     <a href="#top">Back to top</a>
   </footer>
 
-  <script src="gallery-20260602.js?v=briefly-ai"></script>
+  <script src="gallery-20260608.js"></script>
 </body>
 </html>
