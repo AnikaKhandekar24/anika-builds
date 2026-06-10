@@ -709,19 +709,19 @@ h3 {
   align-items: center;
   padding: clamp(28px, 5vw, 52px);
   overflow: hidden;
-  border: 1px solid rgba(126, 111, 214, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.82);
   border-radius: 30px;
   background:
-    radial-gradient(circle at 82% 18%, rgba(188, 231, 255, 0.56), transparent 34%),
-    radial-gradient(circle at 14% 88%, rgba(189, 238, 219, 0.48), transparent 32%),
-    linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(241, 237, 255, 0.82));
-  box-shadow: 0 22px 58px rgba(76, 63, 115, 0.13);
+    radial-gradient(circle at 84% 16%, rgba(203, 188, 255, 0.42), transparent 34%),
+    radial-gradient(circle at 12% 88%, rgba(189, 238, 219, 0.44), transparent 32%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(255, 247, 251, 0.7));
+  box-shadow: var(--shadow);
 }
 
 .securestack-kicker {
   display: inline-flex;
   margin-bottom: 14px;
-  color: #5b4bb7;
+  color: #8b5e76;
   font-size: 0.76rem;
   font-weight: 900;
   letter-spacing: 0.13em;
@@ -739,7 +739,7 @@ h3 {
 
 .securestack-tagline {
   margin-bottom: 18px;
-  color: #473c69;
+  color: #5a4b68;
   font-family: "Space Grotesk", sans-serif;
   font-size: clamp(1.2rem, 2vw, 1.5rem);
   font-weight: 800;
@@ -759,15 +759,15 @@ h3 {
 }
 
 .button.secure-primary {
-  color: #fff;
-  background: linear-gradient(135deg, #5965d8, #8267d7);
-  box-shadow: 0 12px 28px rgba(89, 101, 216, 0.25);
+  color: #3b2533;
+  background: linear-gradient(135deg, var(--pink), var(--peach));
+  box-shadow: 0 12px 24px rgba(242, 124, 169, 0.24);
 }
 
 .button.secure-disabled {
-  color: #756c86;
+  color: var(--muted);
   background: rgba(255, 255, 255, 0.58);
-  border: 1px dashed rgba(91, 75, 183, 0.35);
+  border: 1px dashed rgba(203, 188, 255, 0.68);
   cursor: default;
 }
 
@@ -784,7 +784,7 @@ h3 {
 
 .security-orbit {
   position: absolute;
-  border: 1px solid rgba(91, 75, 183, 0.22);
+  border: 1px solid rgba(203, 188, 255, 0.58);
   border-radius: 50%;
 }
 
@@ -809,7 +809,8 @@ h3 {
   border: 1px solid rgba(255, 255, 255, 0.78);
   border-radius: 32px;
   background: rgba(255, 255, 255, 0.82);
-  box-shadow: 0 20px 48px rgba(76, 63, 115, 0.16);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 247, 251, 0.82));
+  box-shadow: var(--shadow);
   font-size: 3.7rem;
 }
 
@@ -819,9 +820,9 @@ h3 {
   padding: 10px 13px;
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 999px;
-  color: #564c70;
+  color: #675875;
   background: rgba(255, 255, 255, 0.82);
-  box-shadow: 0 12px 26px rgba(76, 63, 115, 0.12);
+  box-shadow: var(--soft-shadow);
   font-size: 0.82rem;
   font-weight: 800;
 }
@@ -875,10 +876,10 @@ h3 {
   flex-direction: column;
   padding: 20px;
   overflow: hidden;
-  border: 1px solid rgba(203, 188, 255, 0.42);
+  border: 1px solid rgba(255, 255, 255, 0.82);
   border-radius: 24px;
-  background: rgba(255, 255, 255, 0.75);
-  box-shadow: 0 12px 32px rgba(76, 63, 115, 0.09);
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: var(--soft-shadow);
   transition: transform 190ms ease, box-shadow 190ms ease, border-color 190ms ease;
 }
 
@@ -895,9 +896,9 @@ h3 {
 }
 
 .secure-project:hover {
-  border-color: rgba(91, 75, 183, 0.36);
-  box-shadow: 0 20px 44px rgba(76, 63, 115, 0.14);
-  transform: translateY(-5px);
+  border-color: rgba(242, 124, 169, 0.35);
+  box-shadow: var(--shadow);
+  transform: translateY(-6px);
 }
 
 .secure-card-top {
@@ -915,8 +916,8 @@ h3 {
   padding: 0 8px;
   place-items: center;
   border-radius: 15px;
-  color: #4f4567;
-  background: linear-gradient(135deg, rgba(203, 188, 255, 0.58), rgba(188, 231, 255, 0.52));
+  color: #5f526c;
+  background: linear-gradient(135deg, rgba(255, 185, 210, 0.48), rgba(203, 188, 255, 0.52));
   font-family: "Space Grotesk", sans-serif;
   font-size: 1.1rem;
   font-weight: 800;
@@ -936,8 +937,8 @@ h3 {
 .live-badge {
   padding: 6px 9px;
   border-radius: 999px;
-  color: #25614e;
-  background: rgba(189, 238, 219, 0.62);
+  color: #235342;
+  background: rgba(189, 238, 219, 0.58);
   font-size: 0.72rem;
   font-weight: 900;
   letter-spacing: 0.04em;
@@ -969,8 +970,9 @@ h3 {
   align-items: center;
   padding: 6px 9px;
   border-radius: 999px;
-  color: #5c526b;
-  background: rgba(241, 237, 255, 0.92);
+  color: #675875;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(203, 188, 255, 0.34);
   font-size: 0.74rem;
   font-weight: 800;
 }
@@ -1006,9 +1008,9 @@ h3 {
   margin-top: 16px;
   padding: 11px 13px;
   border-radius: 14px;
-  color: #fff;
-  background: linear-gradient(135deg, #5965d8, #8267d7);
-  box-shadow: 0 10px 22px rgba(89, 101, 216, 0.2);
+  color: #3b2533;
+  background: linear-gradient(135deg, var(--pink), var(--peach));
+  box-shadow: 0 12px 24px rgba(242, 124, 169, 0.2);
   font-size: 0.86rem;
   font-weight: 900;
   transition: transform 180ms ease, box-shadow 180ms ease;
@@ -1016,14 +1018,14 @@ h3 {
 
 .secure-project-link:hover,
 .secure-project-link:focus-visible {
-  box-shadow: 0 14px 28px rgba(89, 101, 216, 0.3);
+  box-shadow: 0 16px 30px rgba(242, 124, 169, 0.28);
   transform: translateY(-2px);
 }
 
 .secure-capstone {
-  border-color: rgba(91, 75, 183, 0.38);
+  border-color: rgba(203, 188, 255, 0.56);
   background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.84), rgba(235, 242, 255, 0.78)),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.84), rgba(255, 247, 251, 0.74)),
     #fff;
 }
 /* SecureStack section ends */
