@@ -696,6 +696,302 @@ h3 {
   display: none;
 }
 
+/* SecureStack section starts */
+.securestack-section {
+  scroll-margin-top: 88px;
+}
+
+.securestack-intro {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  gap: 32px;
+  align-items: center;
+  padding: clamp(28px, 5vw, 52px);
+  overflow: hidden;
+  border: 1px solid rgba(126, 111, 214, 0.22);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(188, 231, 255, 0.56), transparent 34%),
+    radial-gradient(circle at 14% 88%, rgba(189, 238, 219, 0.48), transparent 32%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(241, 237, 255, 0.82));
+  box-shadow: 0 22px 58px rgba(76, 63, 115, 0.13);
+}
+
+.securestack-kicker {
+  display: inline-flex;
+  margin-bottom: 14px;
+  color: #5b4bb7;
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.securestack-copy {
+  position: relative;
+  z-index: 2;
+}
+
+.securestack-copy h2 {
+  margin-bottom: 10px;
+}
+
+.securestack-tagline {
+  margin-bottom: 18px;
+  color: #473c69;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 800;
+}
+
+.securestack-copy > p:last-of-type {
+  max-width: 710px;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.securestack-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.button.secure-primary {
+  color: #fff;
+  background: linear-gradient(135deg, #5965d8, #8267d7);
+  box-shadow: 0 12px 28px rgba(89, 101, 216, 0.25);
+}
+
+.button.secure-disabled {
+  color: #756c86;
+  background: rgba(255, 255, 255, 0.58);
+  border: 1px dashed rgba(91, 75, 183, 0.35);
+  cursor: default;
+}
+
+.button.secure-disabled:hover {
+  transform: none;
+}
+
+.securestack-visual {
+  position: relative;
+  min-height: 330px;
+  display: grid;
+  place-items: center;
+}
+
+.security-orbit {
+  position: absolute;
+  border: 1px solid rgba(91, 75, 183, 0.22);
+  border-radius: 50%;
+}
+
+.orbit-one {
+  width: 270px;
+  height: 270px;
+}
+
+.orbit-two {
+  width: 210px;
+  height: 210px;
+  border-style: dashed;
+}
+
+.security-shield {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  width: 128px;
+  height: 128px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 20px 48px rgba(76, 63, 115, 0.16);
+  font-size: 3.7rem;
+}
+
+.security-chip {
+  position: absolute;
+  z-index: 3;
+  padding: 10px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 999px;
+  color: #564c70;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 12px 26px rgba(76, 63, 115, 0.12);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.chip-lock {
+  top: 46px;
+  right: 16px;
+}
+
+.chip-code {
+  left: 4px;
+  bottom: 50px;
+}
+
+.chip-ai {
+  right: 34px;
+  bottom: 16px;
+}
+
+.securestack-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 48px 0 24px;
+  scroll-margin-top: 100px;
+}
+
+.securestack-heading h3 {
+  margin-bottom: 0;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+}
+
+.securestack-heading p {
+  max-width: 540px;
+  margin-bottom: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.securestack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.secure-project {
+  position: relative;
+  display: flex;
+  min-height: 290px;
+  flex-direction: column;
+  padding: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(203, 188, 255, 0.42);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 12px 32px rgba(76, 63, 115, 0.09);
+  transition: transform 190ms ease, box-shadow 190ms ease, border-color 190ms ease;
+}
+
+.secure-project::after {
+  content: "";
+  position: absolute;
+  right: -42px;
+  bottom: -52px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(189, 238, 219, 0.3);
+  pointer-events: none;
+}
+
+.secure-project:hover {
+  border-color: rgba(91, 75, 183, 0.36);
+  box-shadow: 0 20px 44px rgba(76, 63, 115, 0.14);
+  transform: translateY(-5px);
+}
+
+.secure-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.secure-icon {
+  display: grid;
+  min-width: 44px;
+  height: 44px;
+  padding: 0 8px;
+  place-items: center;
+  border-radius: 15px;
+  color: #4f4567;
+  background: linear-gradient(135deg, rgba(203, 188, 255, 0.58), rgba(188, 231, 255, 0.52));
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.coming-badge {
+  padding: 6px 9px;
+  border-radius: 999px;
+  color: #765061;
+  background: rgba(255, 185, 210, 0.32);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.secure-project h3 {
+  margin-bottom: 10px;
+}
+
+.secure-project p {
+  flex: 1;
+  margin-bottom: 20px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.secure-tags {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.secure-tags span {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  padding: 6px 9px;
+  border-radius: 999px;
+  color: #5c526b;
+  background: rgba(241, 237, 255, 0.92);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.secure-tags .difficulty.beginner {
+  color: #25614e;
+  background: rgba(189, 238, 219, 0.56);
+}
+
+.secure-tags .difficulty.intermediate {
+  color: #6f551b;
+  background: rgba(255, 210, 170, 0.55);
+}
+
+.secure-tags .difficulty.advanced {
+  color: #6c3a58;
+  background: rgba(255, 185, 210, 0.44);
+}
+
+.secure-tags .difficulty.capstone {
+  color: #4e3c91;
+  background: rgba(203, 188, 255, 0.62);
+}
+
+.secure-capstone {
+  border-color: rgba(91, 75, 183, 0.38);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.84), rgba(235, 242, 255, 0.78)),
+    #fff;
+}
+/* SecureStack section ends */
+
 @keyframes floaty {
   0%,
   100% {
@@ -708,7 +1004,8 @@ h3 {
 
 @media (max-width: 900px) {
   .hero,
-  .about-card {
+  .about-card,
+  .securestack-intro {
     grid-template-columns: 1fr;
   }
 
@@ -723,6 +1020,14 @@ h3 {
 
   .website-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .securestack-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .securestack-visual {
+    min-height: 300px;
   }
 }
 
@@ -777,6 +1082,19 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .securestack-heading {
+    display: grid;
+    align-items: start;
+  }
+
+  .securestack-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .secure-project {
+    min-height: auto;
+  }
+
   .mini-preview {
     grid-template-columns: 1fr;
   }
@@ -823,7 +1141,8 @@ h3 {
 
   .hero-actions,
   .contact-actions,
-  .card-actions {
+  .card-actions,
+  .securestack-actions {
     width: 100%;
   }
 
